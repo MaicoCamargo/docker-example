@@ -4,6 +4,6 @@ services:
   web:
     image: nginx:alpine
     ports:
-      - "8080:80"
+      - "9091:80"
     volumes:
       - ./hello-world.html:/usr/share/nginx/html
