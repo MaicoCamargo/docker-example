@@ -7,3 +7,4 @@ services:
       - "8090:80"
     volumes:
       - ./hello-world.html:/usr/share/nginx/html/index.html
+
