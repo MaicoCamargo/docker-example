@@ -5,6 +5,6 @@ services:
     image: nginx:alpine
     ports:
       - "8090:80"
-    volumes:
-      - ./hello-world.html:/usr/share/nginx/html/index.html
+    # volumes:
+      # - ./hello-world.html:/usr/share/nginx/html/index.html
 
